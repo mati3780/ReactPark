@@ -1,0 +1,36 @@
+
+
+.bg-darkgrey {
+    background-color:  #4c4d4d !important;
+    font-size: 0.7rem !important;
+}
+
+a.bg-darkgrey{
+     color: rgba(255,255,255,.5) !important;
+   
+}
+
+
+/* .menu a.main-nav-item:hover  */
+
+a.bg-darkgrey:hover {
+    color: rgba(255,255,255,.75) !important;
+   
+}
+
+.bg-darkgrey:active{
+    color: #fff;
+    text-decoration: none;
+    background-color: #c0c7ce;
+   
+}
+
+
+
+.pr-b{
+    padding-right: 8rem !important;
+}
+
+
+
+

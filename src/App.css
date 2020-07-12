@@ -1,4 +1,8 @@
 
+.navbar {
+    padding-bottom: 0 !important;
+
+}
 
 .navbar-title {
     font-size: 2.25rem  !important;
@@ -6,14 +10,124 @@
 
 .navbar-brand {
     margin-right: auto !important;
-    margin-left: 3rem;
+    margin-left: 2rem !important;
 }
 
-.navbar-collapse {
-    margin-left: 6rem;
-}
+
 
 .nav-link {
     padding-bottom: 0.8rem  !important;
+    padding-right: 1rem !important;
 }
+
+.nav-rows{
+    flex-direction: row !important;
+}
+
+.dropdown-divider {
+    margin:  0 !important;
+    margin-top:  0.7rem !important;
+    flex-basis: 100%;
+}
+
+.pr-s
+{
+    padding-right: 0.2rem !important;
+}
+
+/* Screems */
+
+@media (max-width: 991.98px) { 
+
+    .dropdown-menu {
+        background-color:#343a40!important;
+        color: #212529 !important;
+        font-weight: bold;
+        font-size: 0.9rem !important;
+        top: 120% !important;
+        text-align: left !important;
+        border:none !important;
+    }
+
+    .navbar {
+        padding: 0 !important;
+    }
+
+
+    .dropdown-item.active, .dropdown-item:active {
+     
+        background-color: rgba(100, 100, 100, 0.5) !important;;
+    }
+
+    .dropdown-item:focus, .dropdown-item:hover {
+ 
+        background-color: rgba(100, 100, 100, 0.5) !important;
+    }
+
+
+    .dropdown-item {
+        color: rgba(255,255,255,.75) !important;
+         font-weight: bold !important; 
+         padding: 0!important; 
+    }
+
+    .dropdown-toggle::after {
+        text-align: right !important;
+        float: right !important;
+     
+    }
+
+    .nav-rows{
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 1rem !important;
+    }
+
+    .main-menu{
+        margin-left: 6rem;
+        margin-right: 5rem;
+        margin-bottom: 2rem;
+    }
+
+     .footer-menu{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+@media (min-width: 992px) { 
+
+    .dropdown-menu {
+        background-color: #d5d5d5 !important;
+        color: #212529 !important;
+        font-weight: bold;
+        font-size: 0.9rem !important;
+        top: 120% !important;
+        text-align: center !important;
+    }
+
+    .dropdown-item.active, .dropdown-item:active {
+     
+        background-color:none !important;
+    }
+
+    .navbar-collapse {
+        margin-left: 6rem;
+        margin-right: 5rem;
+       
+    }
+
+    .main-menu{
+       display: flex!important;
+        flex-basis: auto;
+        flex-grow: 1;
+    }
+}
+
+
+
+
+/* par espaniol align-items: center; */
 
