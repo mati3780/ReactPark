@@ -106,17 +106,27 @@
         font-size: 0.9rem !important;
         top: 120% !important;
         text-align: center !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
     }
 
     .dropdown-item.active, .dropdown-item:active {
      
         background-color:none !important;
     }
+    .dropdown-item:focus, .dropdown-item:hover
+    {
+         font-weight: bold !important; 
+    }
 
     .navbar-collapse {
         margin-left: 6rem;
         margin-right: 5rem;
        
+    }
+    .nowrap-chinese
+    {
+        white-space: nowrap !important;
     }
 
     .main-menu{
@@ -127,7 +137,6 @@
 }
 
 
-
-
-/* par espaniol align-items: center; */
-
+/*  footer .dropdown:hover>.dropdown-menu {
+  display: block;
+} */

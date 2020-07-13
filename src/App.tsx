@@ -19,7 +19,7 @@ function App() {
       
         <Navbar.Brand className="navbar-title" href="#home" > THE PRESIDIO </Navbar.Brand>
         <div className="dropdown-divider d-lg-none" ></div>
-        <Navbar.Collapse id="responsive-navbar-nav" className="">
+        <Navbar.Collapse id="responsive-navbar-nav">
           <div className="main-menu">
             <Nav className="mr-auto">
               <div className="mt-4 d-lg-none"></div>
@@ -63,7 +63,7 @@ function App() {
             <div className="dropdown-divider d-lg-none"></div>
             <Nav className="nav-rows">
 
-              <Nav.Link className="pr-s">中文</Nav.Link>
+              <Nav.Link className="pr-s"><span className="nowrap-chinese">中文</span></Nav.Link>
               <Nav.Link className="pr-s">  | </Nav.Link>
               <Nav.Link >Español</Nav.Link>
               <Nav.Link ><FaSearch /></Nav.Link>
@@ -75,9 +75,9 @@ function App() {
           <Row className="navbar-header d-lg-none bg-darkgrey " >
             <Col className="d-flex justify-content-center">
               <Row className="footer-menu">
-                <Nav.Link className="bg-darkgrey px-4">LEASE A HOME</Nav.Link>
-                <Nav.Link className="bg-darkgrey  px-4" >LEASE A WORKSPACE</Nav.Link>
-                <Nav.Link className="bg-darkgrey  px-4">RENT A VENUE</Nav.Link>
+                <Nav.Link className="bg-darkgrey ">LEASE A HOME</Nav.Link>
+                <Nav.Link className="bg-darkgrey " >LEASE A WORKSPACE</Nav.Link>
+                <Nav.Link className="bg-darkgrey  ">RENT A VENUE</Nav.Link>
               </Row>
             </Col>
 
